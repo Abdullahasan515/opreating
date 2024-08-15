@@ -1,0 +1,45 @@
+
+    .hover-expand {
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .hover-expand:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .single_blog {
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .blog-thumb {
+        padding: 15px;
+    }
+    .blog-image img {
+        border-radius: 8px;
+        width: 100%;
+        height: auto;
+    }
+    .blog-info {
+        padding: 15px 0;
+    }
+    /* /////////////////////////////// */
+    .single_blog {
+        height: 500px; /* Установите желаемую высоту */
+    }
+    .fixed-image {
+        height: 200px; /* Установите желаемую высоту для изображения */
+        object-fit: cover;
+    }
+    .blog-info {
+        overflow-y: auto;
+    }
+    .hover-expand {
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .hover-expand:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
